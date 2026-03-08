@@ -1,0 +1,5 @@
+{
+    "version": 1,
+    "trained_on": "cir_1.csv",
+    "accuracy": 100.0
+}

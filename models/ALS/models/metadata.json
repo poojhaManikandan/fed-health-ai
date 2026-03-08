@@ -1,0 +1,6 @@
+{
+    "version": 1,
+    "trained_on": "als_1.csv",
+    "accuracy": 50.0,
+    "architecture": "PyTorch DNN"
+}

@@ -1,0 +1,173 @@
+.about-page {}
+
+/* ── Hero ─────────────────────────────────────────────────── */
+.about-hero {
+    text-align: center;
+}
+
+/* ── Split Layout ─────────────────────────────────────────── */
+.about-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+/* ── Problem List ─────────────────────────────────────────── */
+.problem-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.problem-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* ── Stats Column ─────────────────────────────────────────── */
+.about-stat-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-stat-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    transition: var(--transition);
+}
+
+.about-stat-item:hover {
+    border-color: var(--border-medium);
+}
+
+.about-stat-n {
+    font-family: var(--font-mono);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--accent-green);
+    line-height: 1;
+}
+
+.about-stat-l {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+}
+
+/* ── Architecture Diagram ─────────────────────────────────── */
+.arch-diagram {
+    position: relative;
+    background: var(--bg-card);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-xl);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 0 40px rgba(57, 211, 83, 0.05);
+    margin-top: 3rem;
+}
+
+.arch-center {
+    display: flex;
+    justify-content: center;
+}
+
+.arch-server {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--bg-elevated);
+    border: 2px solid var(--accent-green);
+    border-radius: var(--radius-md);
+    padding: 1.5rem 2.5rem;
+    box-shadow: 0 0 30px var(--accent-green-glow);
+}
+
+.arch-server-icon {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.arch-server span:nth-child(2) {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.arch-hospitals {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arch-hospital {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.5rem;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    transition: var(--transition);
+}
+
+.arch-hospital:hover {
+    border-color: var(--accent-green);
+    color: var(--accent-green);
+}
+
+.arch-hospital-icon {
+    font-size: 1.5rem;
+}
+
+.arch-tag {
+    font-size: 0.68rem;
+    color: var(--accent-amber);
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
+}
+
+.arch-arrows {
+    display: flex;
+    gap: 3rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+}
+
+.arch-label-down {
+    color: var(--accent-green);
+}
+
+.arch-label-up {
+    color: var(--accent-amber);
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .about-split {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .arch-hospitals {
+        gap: 0.75rem;
+    }
+}

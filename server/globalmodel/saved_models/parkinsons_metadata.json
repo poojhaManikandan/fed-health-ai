@@ -1,0 +1,5 @@
+{
+    "version": 2,
+    "trained_on": "park_2.csv",
+    "accuracy": 98.48
+}

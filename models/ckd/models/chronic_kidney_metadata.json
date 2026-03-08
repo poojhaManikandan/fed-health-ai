@@ -1,0 +1,5 @@
+{
+    "version": 2,
+    "trained_on": "client_2.csv",
+    "accuracy": 99.25
+}

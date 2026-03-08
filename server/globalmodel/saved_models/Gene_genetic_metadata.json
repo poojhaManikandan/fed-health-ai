@@ -1,0 +1,5 @@
+{
+    "version": 2,
+    "trained_on": "gd_2.csv",
+    "accuracy": 95.04
+}

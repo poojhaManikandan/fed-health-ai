@@ -1,0 +1,6 @@
+{
+    "version": 1,
+    "trained_on": "hospital1.csv",
+    "accuracy": 63.43,
+    "architecture": "PyTorch DNN"
+}

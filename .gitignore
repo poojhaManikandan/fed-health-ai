@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+dist_final/
+*.spec
+*.exe
+*.pkg
+output.log
+
+
+# Frontend
+node_modules/
+dist/
+.DS_Store
+*.local
+health-ai-frontend/public/*.exe
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
