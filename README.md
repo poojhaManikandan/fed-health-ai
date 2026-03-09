@@ -46,7 +46,7 @@ See the local training guide below.
 
 ## 🎓 Steps to Use Local Training
 
-1. **Download Global Model**: Visit the [FedHealthAI Website](http://localhost:5173/models) and download the `.pt` model for your target disease.
+1. **Download Global Model**: Visit the [FedHealthAI Website] and download the `.pt` model for your target disease.
 2. **Download Hospital Node**: Download the `FedHealthAI_Node.exe` from the latest releases.
 3. **Launch Node**: Double-click `FedHealthAI_Node.exe`. This starts the local portal and automatically opens `http://localhost:7474` in your browser.
 4. **Select Target**: Choose the corresponding disease in the Dashboard.
