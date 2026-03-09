@@ -1,12 +1,6 @@
 
 
-https://github.com/user-attachments/assets/932cd196-4510-4b6d-b12a-860f103a84a0
-
-
-
-https://github.com/user-attachments/assets/99944b7b-ce5a-48fa-9684-46059e728f9d
-
-
+Tutorial Video:
 
 https://github.com/user-attachments/assets/6de82296-2424-45cb-b8b9-19b59e1e94cf
 
@@ -71,5 +65,4 @@ If you have legacy XGBoost models, use the conversion tool:
 ```bash
 python convert_models.py
 ```
-Tutorial Video:
-https://drive.google.com/drive/folders/1s3Kgl9W05kBXKCOM9OSq1LG050LgQv0v?usp=sharing
+
